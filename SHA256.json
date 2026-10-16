@@ -1,0 +1,8 @@
+{
+  ".gitignore": "6e795052c0ab8b48f7034c681c0f3ffa889a30ab6ea74c6e857a99ca783d4ed7",
+  "README.md": "4c4b93e6dab05405c11176cf8e887dedbd7a44268fe44a4bb3271c295ca29218",
+  "fast_solver.py": "65a58af85b71e0383f22bf4eee4bef34beb3b6344d8d6ddfa1757c5543eb7b55",
+  "fast_verification.json": "e891af66c61472d8c3be4b144bbd99d43118b245bceca233b6ee11f82055a1b2",
+  "solver.py": "81606f956c603d53aa8539706b779792c3769a0225026645ea6f38d4e61b4a9b",
+  "verify_fast.py": "5a6afc6e3d68102599a4b72a33450d6ee583fdacedd2f64125eb3045e046ba52"
+}
