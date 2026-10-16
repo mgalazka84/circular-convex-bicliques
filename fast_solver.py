@@ -67,7 +67,10 @@ class Envelope:
     i<j, the difference f_i(x)-f_j(x) is nondecreasing in x, because it
     counts forbidden intervals starting in (i,j] and ending before x,
     plus a constant. Any two functions therefore switch order at most
-    once (ties have a consistent mass tie-breaker). Linear functions are
+    once. Ties prefer larger mass, then smaller endpoint, then larger
+    stored score. States identical on these keys represent identical
+    functions and masses, so either witness is interchangeable.
+    These priorities are constant over the query domain. Linear functions are
     not required. Inserts and point queries use O(log(q+1)) evaluations.
     """
 
@@ -81,7 +84,9 @@ class Envelope:
             return False
         if second is None:
             return True
-        return (first.score + self.matrix[first.last][x], first.mass) > (second.score + self.matrix[second.last][x], second.mass)
+        first_key = (first.score + self.matrix[first.last][x], first.mass, -first.last, first.score)
+        second_key = (second.score + self.matrix[second.last][x], second.mass, -second.last, second.score)
+        return first_key > second_key
 
     def insert(self, state):
         lo, hi, node = self.lo, self.hi, 1

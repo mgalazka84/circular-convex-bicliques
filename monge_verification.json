@@ -1,0 +1,78 @@
+{
+  "algorithm": "deterministic rectangular SMAWK, O(p+q^3 log(q+1))",
+  "advanced_staircase_primitives_implemented": false,
+  "seeds": {
+    "weighted_A": 317041,
+    "layers": 317042
+  },
+  "exhaustive": [
+    {
+      "q": 1,
+      "maximum_p": 4,
+      "families": 15
+    },
+    {
+      "q": 2,
+      "maximum_p": 4,
+      "families": 70
+    },
+    {
+      "q": 3,
+      "maximum_p": 4,
+      "families": 495
+    },
+    {
+      "q": 4,
+      "maximum_p": 4,
+      "families": 3060
+    },
+    {
+      "q": 5,
+      "maximum_p": 4,
+      "families": 14950
+    },
+    {
+      "q": 6,
+      "maximum_p": 4,
+      "families": 58905
+    }
+  ],
+  "weighted_A": {
+    "cases": 2500,
+    "maximum_p": 11,
+    "maximum_q": 15,
+    "exact_mismatches": 0,
+    "infeasible_witnesses": 0
+  },
+  "arbitrary_score_layers": {
+    "cases": 600,
+    "endpoint_comparisons": 6828,
+    "mismatches": 0
+  },
+  "padding_counterexample": {
+    "q": 5,
+    "arcs": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "anchor": 0,
+    "layer": 3,
+    "predecessor_maxima": [
+      1,
+      2,
+      1
+    ]
+  },
+  "boundary_cases": 4,
+  "wall_seconds": 30.027
+}

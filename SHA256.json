@@ -1,8 +1,11 @@
 {
   ".gitignore": "6e795052c0ab8b48f7034c681c0f3ffa889a30ab6ea74c6e857a99ca783d4ed7",
-  "README.md": "4c4b93e6dab05405c11176cf8e887dedbd7a44268fe44a4bb3271c295ca29218",
-  "fast_solver.py": "65a58af85b71e0383f22bf4eee4bef34beb3b6344d8d6ddfa1757c5543eb7b55",
-  "fast_verification.json": "e891af66c61472d8c3be4b144bbd99d43118b245bceca233b6ee11f82055a1b2",
+  "README.md": "6f75e79c68a626f5afa3625d431e109282e431bfd16e9e0fc7e42026a3434a88",
+  "fast_solver.py": "e850103d7997b4fd8a642106d2e3a1252f3920130a507e729fe5a823a2e0e5b9",
+  "fast_verification.json": "c113a1dfdff069c7c30c2b812906c7609a2f89ff738c42ba4b3728a75b63d582",
+  "monge_solver.py": "4c1640c87f455e6c68fb29080c56ecae6064ed154f9dfb605a311ac4151612c1",
+  "monge_verification.json": "64494d19f96774c6fd50fd0a57c7c83284166bb5feab8cb43ae80fbc0b18a846",
   "solver.py": "81606f956c603d53aa8539706b779792c3769a0225026645ea6f38d4e61b4a9b",
-  "verify_fast.py": "5a6afc6e3d68102599a4b72a33450d6ee583fdacedd2f64125eb3045e046ba52"
+  "verify_fast.py": "5a6afc6e3d68102599a4b72a33450d6ee583fdacedd2f64125eb3045e046ba52",
+  "verify_monge.py": "3dcd5d42a4a9d74628c74f238f7e191a1376495c9b73d324ef6c73b0aae2cc1c"
 }
